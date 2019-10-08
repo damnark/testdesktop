@@ -72,6 +72,13 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsdbandan.vb" />
+    <Compile Include="Dbandan.Designer.vb">
+      <DependentUpon>Dbandan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dbandan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
